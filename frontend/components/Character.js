@@ -9,10 +9,10 @@ const Character = ({ character }) => {
  console.log(character)
   return (
     <div className="character-card" onClick={togglePlanet}>
-      <h2>{character.name}</h2>
+      <h3 className="character-name">{character.name}</h3>
       
      
-      {showPlanet && <p>Planet: <span>{character.homeworld}</span></p>}
+      {showPlanet && <p>Planet: <span className="character-planet">{character.homeworld}</span></p>}
     </div>
   );
 };

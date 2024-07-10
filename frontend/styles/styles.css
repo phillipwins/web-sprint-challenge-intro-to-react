@@ -50,7 +50,7 @@ h3 {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.character-card h2:hover {
+.character-card h3:hover {
   cursor: pointer;
   text-decoration: underline;
 }

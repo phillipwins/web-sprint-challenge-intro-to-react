@@ -41,9 +41,9 @@ const App = () => {
 
   return (
     <div>
-      {characters.map(character => (
+      {characters.length ? characters.map(character => (
         <Character key={character.id} character={character} />
-      ))}
+      )) : null}
     </div>
   );
 };
